@@ -1,0 +1,173 @@
+# ==========================================================
+# Medical Diagnosis using Deep Learning
+# Configuration File
+# ==========================================================
+
+project:
+  name: "Medical Diagnosis AI"
+  version: "1.0.0"
+  author: "Kinza Arshad"
+
+# ==========================================================
+# Dataset Paths
+# ==========================================================
+
+paths:
+
+  raw_data: "data/raw"
+
+  processed_data: "data/processed"
+
+  train_data: "data/raw/train"
+
+  validation_data: "data/raw/val"
+
+  test_data: "data/raw/test"
+
+  model_dir: "saved_models"
+
+  output_dir: "outputs"
+
+  plots_dir: "outputs/plots"
+
+  reports_dir: "outputs/reports"
+
+  prediction_dir: "outputs/predictions"
+
+  logs_dir: "logs"
+
+# ==========================================================
+# Image Settings
+# ==========================================================
+
+image:
+
+  image_size: 224
+
+  channels: 3
+
+  normalize_mean:
+    - 0.485
+    - 0.456
+    - 0.406
+
+  normalize_std:
+    - 0.229
+    - 0.224
+    - 0.225
+
+# ==========================================================
+# Training Settings
+# ==========================================================
+
+training:
+
+  batch_size: 32
+
+  epochs: 20
+
+  learning_rate: 0.0001
+
+  random_seed: 42
+
+  shuffle: True
+
+  num_workers: 2
+
+# ==========================================================
+# Transfer Learning Model
+# ==========================================================
+
+model:
+
+  name: "ResNet50"
+
+  pretrained: True
+
+  num_classes: 2
+
+  dropout: 0.5
+
+# ==========================================================
+# Optimizer
+# ==========================================================
+
+optimizer:
+
+  name: "Adam"
+
+  weight_decay: 0.00001
+
+# ==========================================================
+# Learning Rate Scheduler
+# ==========================================================
+
+scheduler:
+
+  step_size: 5
+
+  gamma: 0.1
+
+# ==========================================================
+# Early Stopping
+# ==========================================================
+
+early_stopping:
+
+  patience: 5
+
+  min_delta: 0.001
+
+# ==========================================================
+# Data Augmentation
+# ==========================================================
+
+augmentation:
+
+  horizontal_flip: True
+
+  rotation: 15
+
+  brightness: 0.2
+
+  contrast: 0.2
+
+# ==========================================================
+# Prediction
+# ==========================================================
+
+prediction:
+
+  confidence_threshold: 0.70
+
+# ==========================================================
+# Classes
+# ==========================================================
+
+classes:
+
+  - Normal
+
+  - Pneumonia
+
+# ==========================================================
+# Logging
+# ==========================================================
+
+logging:
+
+  level: "INFO"
+
+  log_file: "logs/project.log"
+
+# ==========================================================
+# Streamlit
+# ==========================================================
+
+streamlit:
+
+  page_title: "Medical Diagnosis AI"
+
+  layout: "wide"
+
+  sidebar: "expanded"
