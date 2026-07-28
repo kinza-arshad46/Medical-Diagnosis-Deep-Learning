@@ -1,0 +1,155 @@
+[2026-07-27 23:53:34,959] | WARNING | device.py | get_device | Line:43 | CUDA not available. Using CPU.
+[2026-07-27 23:53:34,959] | INFO | predict.py | __init__ | Line:41 | Prediction Device : cpu
+[2026-07-27 23:53:35,984] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : model.py
+Function  : build_resnet50
+Line No   : 101
+Error     : <urlopen error [Errno 11002] getaddrinfo failed>
+=================================================
+[2026-07-28 00:02:15,049] | WARNING | device.py | get_device | Line:43 | CUDA not available. Using CPU.
+[2026-07-28 00:02:15,051] | INFO | predict.py | __init__ | Line:41 | Prediction Device : cpu
+[2026-07-28 00:03:18,779] | INFO | model.py | build_resnet50 | Line:146 | ResNet50 created successfully.
+[2026-07-28 00:03:18,821] | WARNING | checkpoint.py | load_checkpoint | Line:144 | Checkpoint file not found.
+[2026-07-28 00:03:18,938] | INFO | augmentation.py | test_augmentation | Line:166 | Testing augmentation created.
+[2026-07-28 00:03:18,938] | WARNING | device.py | get_device | Line:43 | CUDA not available. Using CPU.
+[2026-07-28 00:03:20,190] | INFO | model.py | build_resnet50 | Line:146 | ResNet50 created successfully.
+[2026-07-28 00:03:20,225] | WARNING | checkpoint.py | load_checkpoint | Line:144 | Checkpoint file not found.
+[2026-07-28 00:03:20,253] | INFO | augmentation.py | test_augmentation | Line:166 | Testing augmentation created.
+[2026-07-28 00:03:20,253] | INFO | gradcam.py | register_hooks | Line:153 | GradCAM hooks registered.
+[2026-07-28 00:10:21,310] | WARNING | device.py | get_device | Line:43 | CUDA not available. Using CPU.
+[2026-07-28 00:10:21,310] | INFO | predict.py | __init__ | Line:41 | Prediction Device : cpu
+[2026-07-28 00:10:22,146] | INFO | model.py | build_resnet50 | Line:146 | ResNet50 created successfully.
+[2026-07-28 00:10:22,175] | WARNING | checkpoint.py | load_checkpoint | Line:144 | Checkpoint file not found.
+[2026-07-28 00:10:22,198] | INFO | augmentation.py | test_augmentation | Line:166 | Testing augmentation created.
+[2026-07-28 00:10:22,198] | WARNING | device.py | get_device | Line:43 | CUDA not available. Using CPU.
+[2026-07-28 00:10:23,019] | INFO | model.py | build_resnet50 | Line:146 | ResNet50 created successfully.
+[2026-07-28 00:10:23,046] | WARNING | checkpoint.py | load_checkpoint | Line:144 | Checkpoint file not found.
+[2026-07-28 00:10:23,069] | INFO | augmentation.py | test_augmentation | Line:166 | Testing augmentation created.
+[2026-07-28 00:10:23,069] | INFO | gradcam.py | register_hooks | Line:153 | GradCAM hooks registered.
+[2026-07-28 00:11:45,984] | INFO | predict.py | predict_single | Line:182 | {'image_path': 'C:\\Users\\MICROS~1\\AppData\\Local\\Temp\\tmp4ugz0gnn.png', 'predicted_class': 'NORMAL', 'class_index': 0, 'confidence': 0.5042, 'prediction_time': 0.5541}
+[2026-07-28 00:11:46,518] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+[2026-07-28 00:11:46,519] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : overlay_heatmap
+Line No   : 325
+Error     : 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+=================================================
+[2026-07-28 00:15:52,389] | INFO | predict.py | predict_single | Line:182 | {'image_path': 'C:\\Users\\MICROS~1\\AppData\\Local\\Temp\\tmpb923o418.png', 'predicted_class': 'NORMAL', 'class_index': 0, 'confidence': 0.5042, 'prediction_time': 0.3227}
+[2026-07-28 00:15:52,836] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+[2026-07-28 00:15:52,836] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : overlay_heatmap
+Line No   : 325
+Error     : 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+=================================================
+[2026-07-28 00:17:10,895] | INFO | predict.py | predict_single | Line:182 | {'image_path': 'C:\\Users\\MICROS~1\\AppData\\Local\\Temp\\tmp_jyfl_2s.png', 'predicted_class': 'NORMAL', 'class_index': 0, 'confidence': 0.5042, 'prediction_time': 0.3087}
+[2026-07-28 00:17:11,354] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+[2026-07-28 00:17:11,356] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : overlay_heatmap
+Line No   : 325
+Error     : 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+=================================================
+[2026-07-28 00:19:48,729] | INFO | predict.py | predict_single | Line:182 | {'image_path': 'C:\\Users\\MICROS~1\\AppData\\Local\\Temp\\tmpjuoxr86a.png', 'predicted_class': 'NORMAL', 'class_index': 0, 'confidence': 0.5042, 'prediction_time': 0.351}
+[2026-07-28 00:19:49,171] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+[2026-07-28 00:19:49,171] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : overlay_heatmap
+Line No   : 325
+Error     : 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+=================================================
+[2026-07-28 00:27:19,905] | INFO | predict.py | predict_single | Line:182 | {'image_path': 'C:\\Users\\MICROS~1\\AppData\\Local\\Temp\\tmpk4exchyh.png', 'predicted_class': 'NORMAL', 'class_index': 0, 'confidence': 0.5042, 'prediction_time': 0.3009}
+[2026-07-28 00:27:20,341] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+[2026-07-28 00:27:20,341] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : overlay_heatmap
+Line No   : 325
+Error     : 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+=================================================
+[2026-07-28 00:28:54,541] | INFO | predict.py | predict_single | Line:182 | {'image_path': 'C:\\Users\\MICROS~1\\AppData\\Local\\Temp\\tmpx8m_yxd9.png', 'predicted_class': 'NORMAL', 'class_index': 0, 'confidence': 0.5042, 'prediction_time': 0.3135}
+[2026-07-28 00:28:54,973] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+[2026-07-28 00:28:54,973] | ERROR | custom_exception.py | __init__ | Line:35 | 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : overlay_heatmap
+Line No   : 325
+Error     : 
+========== Medical Diagnosis Exception ==========
+File      : gradcam.py
+Function  : generate_heatmap
+Line No   : 236
+Error     : 'NoneType' object is not subscriptable
+=================================================
+=================================================

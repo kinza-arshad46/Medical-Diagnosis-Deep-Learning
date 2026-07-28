@@ -1,0 +1,12 @@
+[2026-07-28 00:33:04,189] | WARNING | device.py | get_device | Line:43 | CUDA not available. Using CPU.
+[2026-07-28 00:33:05,063] | INFO | model.py | build_resnet50 | Line:105 | ResNet50 created successfully.
+[2026-07-28 00:33:05,087] | WARNING | checkpoint.py | load_checkpoint | Line:178 | Checkpoint not found: saved_models\best_model.pth
+[2026-07-28 00:33:05,108] | INFO | augmentation.py | test_augmentation | Line:166 | Testing augmentation created.
+[2026-07-28 00:33:05,108] | INFO | predict.py | __init__ | Line:69 | Predictor initialized successfully.
+[2026-07-28 00:33:05,108] | WARNING | device.py | get_device | Line:43 | CUDA not available. Using CPU.
+[2026-07-28 00:33:05,969] | INFO | model.py | build_resnet50 | Line:105 | ResNet50 created successfully.
+[2026-07-28 00:33:05,994] | WARNING | checkpoint.py | load_checkpoint | Line:178 | Checkpoint not found: saved_models\best_model.pth
+[2026-07-28 00:33:06,021] | INFO | augmentation.py | test_augmentation | Line:166 | Testing augmentation created.
+[2026-07-28 00:33:06,021] | INFO | gradcam.py | get_target_layer | Line:116 | GradCAM target: ResNet layer4[-1]
+[2026-07-28 00:33:06,021] | INFO | gradcam.py | register_hooks | Line:179 | GradCAM hooks registered.
+[2026-07-28 00:33:06,021] | INFO | gradcam.py | __init__ | Line:91 | GradCAM initialized.
