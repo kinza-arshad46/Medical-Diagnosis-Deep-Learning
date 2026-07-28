@@ -1,3 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 numpy
 pandas
 matplotlib
@@ -5,16 +7,15 @@ plotly
 opencv-python-headless
 Pillow
 scikit-learn
-tensorflow-cpu
+tensorflow
 streamlit
 streamlit-option-menu
 streamlit-lottie
 streamlit-extras
 albumentations
 seaborn
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
+torch
+torchvision
 tqdm
 PyYAML
 joblib
