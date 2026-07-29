@@ -1,26 +1,30 @@
 numpy==1.26.4
 pandas==2.2.2
+pillow==10.4.0
 matplotlib==3.8.4
-plotly==5.24.1
-opencv-python-headless==4.10.0.84
-Pillow==10.4.0
-scikit-learn==1.5.1
-tensorflow==2.16.1
-
-streamlit==1.39.0
-streamlit-option-menu==0.3.13
-streamlit-lottie==0.0.5
-streamlit-extras==0.5.0
-
-albumentations==1.4.18
 seaborn==0.13.2
+scikit-learn==1.5.1
+scikit-image==0.25.2
 
---extra-index-url https://download.pytorch.org/whl/cpu
+# Deep learning frameworks
+tensorflow==2.16.1
 torch==2.3.1
 torchvision==0.18.1
 
-tqdm==4.66.5
-PyYAML==6.0.2
-joblib==1.4.2
+# Computer vision (headless ONLY — do not add opencv-python alongside this)
+opencv-python-headless==4.10.0.84
+
+# Explainability / visualization
 grad-cam==1.5.4
+albumentations==1.4.18
+albucore==0.0.17
+
+# App / reporting
+streamlit==1.39.0
+plotly==5.24.1
 reportlab==4.2.2
+h5py==3.16.0
+requests==2.28.1
+
+# Pin to avoid known pyarrow segfault on Streamlit Cloud
+pyarrow==24.0.0
