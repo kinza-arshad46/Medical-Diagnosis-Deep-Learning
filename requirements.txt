@@ -20,7 +20,7 @@ albumentations==1.4.18
 albucore==0.0.17
 
 # App / reporting
-streamlit==1.39.0
+streamlit==1.40.0
 plotly==5.24.1
 reportlab==4.2.2
 h5py==3.16.0
